@@ -1,11 +1,10 @@
 <?php 
 
-namespace SGE\app\Controllers;
+namespace SGE\App\Controllers;
 
 class SendgridMail
 {
    function showEmailMenu(){
-  
 		add_menu_page(
          "Send Email", //Page Title
          "Send Email",  //Menu Title

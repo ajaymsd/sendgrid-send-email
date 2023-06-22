@@ -1,6 +1,6 @@
 <?php 
 
-namespace SGE\app;
+namespace SGE\App;
 
 class Route{
     function hook(){
