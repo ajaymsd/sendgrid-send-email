@@ -18,9 +18,8 @@
 defined('ABSPATH') || exit;
 
 
-defined('SGE_PLUGIN_FILE') or define('SGE_PLUGIN_FILE',__FILE__);
-// die(print_r(AUDD_PLUGIN_FILE));
-defined('SGE_PLUGIN_PATH') or define('SGE_PLUGIN_PATH',plugin_dir_path(__FILE__));
+defined('SGE_PLUGIN_FILE') || define('SGE_PLUGIN_FILE',__FILE__);
+defined('SGE_PLUGIN_PATH') || define('SGE_PLUGIN_PATH',plugin_dir_path(__FILE__));
 
 //autoload files
 if(file_exists(SGE_PLUGIN_PATH .'/vendor/autoload.php')){
